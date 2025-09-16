@@ -1,0 +1,101 @@
+2025-09-17 00:10:32.689 | DEBUG    | datastructure_factory.logging_config:setup_logging:33 - Logging initialized. File: data/logs/ds_factory.log
+2025-09-17 00:10:32.692 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: array_list -> <class 'datastructure_factory.linear.array_list.DynamicArray'>
+2025-09-17 00:10:32.694 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: singly_linked_list -> <class 'datastructure_factory.linear.linked_list.SinglyLinkedList'>
+2025-09-17 00:10:32.694 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: deque_list -> <class 'datastructure_factory.linear.linked_list.DequeList'>
+2025-09-17 00:10:32.695 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: stack -> <class 'datastructure_factory.linear.stack_queue.Stack'>
+2025-09-17 00:10:32.695 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: queue -> <class 'datastructure_factory.linear.stack_queue.Queue'>
+2025-09-17 00:10:32.697 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: hash_map -> <class 'datastructure_factory.hash.hashmap.HashMap'>
+2025-09-17 00:10:32.698 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: lru_cache -> <class 'datastructure_factory.hash.lru_cache.LRUCache'>
+2025-09-17 00:10:32.700 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: bst -> <class 'datastructure_factory.trees.bst.BST'>
+2025-09-17 00:10:32.701 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: avl -> <class 'datastructure_factory.trees.avl.AVL'>
+2025-09-17 00:10:32.703 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: min_heap -> <class 'datastructure_factory.heap.binary_heap.MinHeap'>
+2025-09-17 00:10:32.704 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: dsu -> <class 'datastructure_factory.dsu.disjoint_set.DisjointSet'>
+2025-09-17 00:10:32.705 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: graph -> <class 'datastructure_factory.graph.graph.Graph'>
+2025-09-17 00:10:32.706 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: dijkstra -> <function dijkstra at 0x1059bb2e0>
+2025-09-17 00:10:32.707 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kruskal -> <function kruskal at 0x1059e8400>
+2025-09-17 00:10:32.708 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: quicksort -> <function quicksort at 0x1059e82c0>
+2025-09-17 00:10:32.708 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: mergesort -> <function mergesort at 0x1059e8540>
+2025-09-17 00:10:32.708 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: heapsort -> <function heapsort at 0x1059e85e0>
+2025-09-17 00:10:32.709 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: counting_sort -> <function counting_sort at 0x1059e8680>
+2025-09-17 00:10:32.709 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: radix_sort -> <function radix_sort at 0x1059e87c0>
+2025-09-17 00:10:32.710 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kmp_search -> <function kmp_search at 0x1059e89a0>
+2025-09-17 00:10:33.181 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=quicksort n=1000
+2025-09-17 00:10:33.183 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=mergesort n=1000
+2025-09-17 00:10:33.187 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=heapsort n=1000
+2025-09-17 00:10:33.188 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=quicksort n=5000
+2025-09-17 00:10:33.200 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=mergesort n=5000
+2025-09-17 00:10:33.227 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=heapsort n=5000
+2025-09-17 00:10:33.232 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=quicksort n=10000
+2025-09-17 00:10:33.255 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=mergesort n=10000
+2025-09-17 00:10:33.309 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=heapsort n=10000
+2025-09-17 00:10:33.319 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=quicksort n=20000
+2025-09-17 00:10:33.368 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=mergesort n=20000
+2025-09-17 00:10:33.483 | INFO     | datastructure_factory.bench.benchmark:bench_sorters:26 - [sort-bench] algo=heapsort n=20000
+2025-09-17 00:10:33.504 | SUCCESS  | datastructure_factory.bench.benchmark:bench_sorters:30 - 排序基准完成，结果点数：[('quicksort', 4), ('mergesort', 4), ('heapsort', 4)]
+2025-09-17 00:10:33.612 | SUCCESS  | __main__:demo_sort:14 - 图已保存：data/reports/sorting_bench.png
+2025-09-17 00:10:56.792 | DEBUG    | datastructure_factory.logging_config:setup_logging:33 - Logging initialized. File: data/logs/ds_factory.log
+2025-09-17 00:10:56.794 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: array_list -> <class 'datastructure_factory.linear.array_list.DynamicArray'>
+2025-09-17 00:10:56.794 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: singly_linked_list -> <class 'datastructure_factory.linear.linked_list.SinglyLinkedList'>
+2025-09-17 00:10:56.795 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: deque_list -> <class 'datastructure_factory.linear.linked_list.DequeList'>
+2025-09-17 00:10:56.795 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: stack -> <class 'datastructure_factory.linear.stack_queue.Stack'>
+2025-09-17 00:10:56.795 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: queue -> <class 'datastructure_factory.linear.stack_queue.Queue'>
+2025-09-17 00:10:56.796 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: hash_map -> <class 'datastructure_factory.hash.hashmap.HashMap'>
+2025-09-17 00:10:56.796 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: lru_cache -> <class 'datastructure_factory.hash.lru_cache.LRUCache'>
+2025-09-17 00:10:56.797 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: bst -> <class 'datastructure_factory.trees.bst.BST'>
+2025-09-17 00:10:56.797 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: avl -> <class 'datastructure_factory.trees.avl.AVL'>
+2025-09-17 00:10:56.798 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: min_heap -> <class 'datastructure_factory.heap.binary_heap.MinHeap'>
+2025-09-17 00:10:56.798 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: dsu -> <class 'datastructure_factory.dsu.disjoint_set.DisjointSet'>
+2025-09-17 00:10:56.799 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: graph -> <class 'datastructure_factory.graph.graph.Graph'>
+2025-09-17 00:10:56.799 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: dijkstra -> <function dijkstra at 0x1047cbce0>
+2025-09-17 00:10:56.799 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kruskal -> <function kruskal at 0x1047cbf60>
+2025-09-17 00:10:56.800 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: quicksort -> <function quicksort at 0x1047ec0e0>
+2025-09-17 00:10:56.800 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: mergesort -> <function mergesort at 0x1047ec180>
+2025-09-17 00:10:56.800 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: heapsort -> <function heapsort at 0x1047ec220>
+2025-09-17 00:10:56.800 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: counting_sort -> <function counting_sort at 0x1047ec360>
+2025-09-17 00:10:56.800 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: radix_sort -> <function radix_sort at 0x1047ec400>
+2025-09-17 00:10:56.801 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kmp_search -> <function kmp_search at 0x1047ec540>
+2025-09-17 00:10:57.213 | INFO     | __main__:demo_hashmap:27 - HashMap 状态：size=2599 命中=791 未命中=2209
+2025-09-17 00:11:04.299 | DEBUG    | datastructure_factory.logging_config:setup_logging:33 - Logging initialized. File: data/logs/ds_factory.log
+2025-09-17 00:11:04.300 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: array_list -> <class 'datastructure_factory.linear.array_list.DynamicArray'>
+2025-09-17 00:11:04.301 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: singly_linked_list -> <class 'datastructure_factory.linear.linked_list.SinglyLinkedList'>
+2025-09-17 00:11:04.301 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: deque_list -> <class 'datastructure_factory.linear.linked_list.DequeList'>
+2025-09-17 00:11:04.302 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: stack -> <class 'datastructure_factory.linear.stack_queue.Stack'>
+2025-09-17 00:11:04.302 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: queue -> <class 'datastructure_factory.linear.stack_queue.Queue'>
+2025-09-17 00:11:04.302 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: hash_map -> <class 'datastructure_factory.hash.hashmap.HashMap'>
+2025-09-17 00:11:04.303 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: lru_cache -> <class 'datastructure_factory.hash.lru_cache.LRUCache'>
+2025-09-17 00:11:04.303 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: bst -> <class 'datastructure_factory.trees.bst.BST'>
+2025-09-17 00:11:04.303 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: avl -> <class 'datastructure_factory.trees.avl.AVL'>
+2025-09-17 00:11:04.304 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: min_heap -> <class 'datastructure_factory.heap.binary_heap.MinHeap'>
+2025-09-17 00:11:04.304 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: dsu -> <class 'datastructure_factory.dsu.disjoint_set.DisjointSet'>
+2025-09-17 00:11:04.305 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: graph -> <class 'datastructure_factory.graph.graph.Graph'>
+2025-09-17 00:11:04.305 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: dijkstra -> <function dijkstra at 0x103af3ce0>
+2025-09-17 00:11:04.305 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kruskal -> <function kruskal at 0x103af3f60>
+2025-09-17 00:11:04.306 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: quicksort -> <function quicksort at 0x103b140e0>
+2025-09-17 00:11:04.306 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: mergesort -> <function mergesort at 0x103b14180>
+2025-09-17 00:11:04.306 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: heapsort -> <function heapsort at 0x103b14220>
+2025-09-17 00:11:04.306 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: counting_sort -> <function counting_sort at 0x103b14360>
+2025-09-17 00:11:04.306 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: radix_sort -> <function radix_sort at 0x103b14400>
+2025-09-17 00:11:04.307 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kmp_search -> <function kmp_search at 0x103b14540>
+2025-09-17 00:11:04.662 | SUCCESS  | __main__:demo_dsu:36 - DSU 演示完成。
+2025-09-17 00:11:11.335 | DEBUG    | datastructure_factory.logging_config:setup_logging:33 - Logging initialized. File: data/logs/ds_factory.log
+2025-09-17 00:11:11.336 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: array_list -> <class 'datastructure_factory.linear.array_list.DynamicArray'>
+2025-09-17 00:11:11.337 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: singly_linked_list -> <class 'datastructure_factory.linear.linked_list.SinglyLinkedList'>
+2025-09-17 00:11:11.337 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: deque_list -> <class 'datastructure_factory.linear.linked_list.DequeList'>
+2025-09-17 00:11:11.337 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: stack -> <class 'datastructure_factory.linear.stack_queue.Stack'>
+2025-09-17 00:11:11.337 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: queue -> <class 'datastructure_factory.linear.stack_queue.Queue'>
+2025-09-17 00:11:11.338 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: hash_map -> <class 'datastructure_factory.hash.hashmap.HashMap'>
+2025-09-17 00:11:11.338 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: lru_cache -> <class 'datastructure_factory.hash.lru_cache.LRUCache'>
+2025-09-17 00:11:11.339 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: bst -> <class 'datastructure_factory.trees.bst.BST'>
+2025-09-17 00:11:11.339 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: avl -> <class 'datastructure_factory.trees.avl.AVL'>
+2025-09-17 00:11:11.340 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: min_heap -> <class 'datastructure_factory.heap.binary_heap.MinHeap'>
+2025-09-17 00:11:11.340 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: dsu -> <class 'datastructure_factory.dsu.disjoint_set.DisjointSet'>
+2025-09-17 00:11:11.340 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ADT: graph -> <class 'datastructure_factory.graph.graph.Graph'>
+2025-09-17 00:11:11.341 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: dijkstra -> <function dijkstra at 0x104543ce0>
+2025-09-17 00:11:11.341 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kruskal -> <function kruskal at 0x104543f60>
+2025-09-17 00:11:11.341 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: quicksort -> <function quicksort at 0x1045640e0>
+2025-09-17 00:11:11.341 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: mergesort -> <function mergesort at 0x104564180>
+2025-09-17 00:11:11.342 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: heapsort -> <function heapsort at 0x104564220>
+2025-09-17 00:11:11.342 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: counting_sort -> <function counting_sort at 0x1045642c0>
+2025-09-17 00:11:11.342 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: radix_sort -> <function radix_sort at 0x104564400>
+2025-09-17 00:11:11.342 | DEBUG    | datastructure_factory.factory.registry:register:17 - Registered ALGO: kmp_search -> <function kmp_search at 0x104564540>
+2025-09-17 00:11:11.666 | SUCCESS  | __main__:demo_lru:43 - LRU 演示完成。
