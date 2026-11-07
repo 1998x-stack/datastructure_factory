@@ -16,8 +16,12 @@ def counting_sort(a: Sequence[int]) -> List[int]:
 
 @register_algo("radix_sort")
 def radix_sort(a: Sequence[int], base: int = 10) -> List[int]:
+    if not isinstance(base, int) or isinstance(base, bool) or base < 2:
+        raise ValueError("radix_sort base must be an integer >= 2")
     if not a: return []
     arr = list(a)
+    if any(not isinstance(x, int) or isinstance(x, bool) or x < 0 for x in arr):
+        raise ValueError("radix_sort only supports non-negative integers")
     exp = 1
     mx = max(arr)
     while mx // exp > 0:
